@@ -13,8 +13,6 @@ import weka.core.DenseInstance;
 import weka.core.Instances;
 
 public class App_loader_data_set {
-	
-	
 	public static Instances load_normal_data_set(String file)throws Exception{
 		BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(file))));
    	 

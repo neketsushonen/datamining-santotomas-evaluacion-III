@@ -10,5 +10,7 @@ public class Ejercicio_01 extends App_loader_data_set{
 		 
 		Instances datosEntrenamiento = load_normal_data_set(file);
 		//TODO Implementar 
+		
+		System.out.println(datosEntrenamiento.numInstances());
  	}
 }
